@@ -5,3 +5,5 @@ bin
 .git
 .gitignore.swp
 .DS_Store
+env/
+.gitignore

@@ -10,7 +10,14 @@ This will allow us to assign probabilities to each 'cluster', and allow sorts of
 - GMM assumes a gaussian distribution, but in general only some of the features are gaussian populations, whereas others are definitely closer to poisson or exponential. 
 
 ## Utilities
-- Python: BeautifulSoup, Numpy, Pandas, Scikit-learn, Pomogranate?
+- Python: BeautifulSoup, Numpy, Pandas, Scikit-learn
 - To potentially demonstrate data cleaning skills, SQL/Mongo
 - Docker for containerization
 - Will need something for data visualization eventually.
+
+
+# Step 1 -- Scraping & Cleaning
+Using BeauitfulSoup to scrape game performance from Natural Stat Trick. 
+- Decided to only scrape tables to improve runtime.
+
+Will then move data to sqlite database. *Insert DB Structure Graphic*
